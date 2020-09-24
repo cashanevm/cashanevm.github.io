@@ -136,3 +136,13 @@ h2{padding: 20px 0 20px 0;
   
  
 }
+.box{
+    
+    height:100%;
+    width:100%;
+border-top:10px solid #D8BF6D;
+border-left:10px solid black;
+border-bottom: dotted 1px black;
+padding-left:10px;
+}
+.popup {width: 150px; cursor:pointer;width: 3%;}
