@@ -1,5 +1,5 @@
 let counter=1;
-
+var i= 1;
 document.addEventListener("DOMContentLoaded",
   (event) => {
       
@@ -16,28 +16,36 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest(`https://reqres.in/api/users/${counter}`, 
             (request) => {
               const data = (JSON.parse(request.responseText));
+              if(i%5 != 0){
               first_name.innerHTML=data.data.first_name;
               last_name.innerHTML=' ' + data.data.last_name;
               image.src=data.data.avatar;
               email.innerHTML=data.data.email;
-              Job.innerHTML='Experience';
-              const company_name=data.ad.company;
-              const url=data.ad.url;
-              const text=data.ad.text;
-              content.innerHTML=`
-                <ul>
-                    <li>${company_name} <span><a href="${url}">${url}</a></span></li>
-                    <div class="Text">${text}</div>
-                </ul>
-                                `;
-            
-              if (counter==12){
-                  counter=0;
-              }
               counter++;
+            }
+            else{
+              first_name.innerHTML="oleksandr";
+              last_name.innerHTML=' ' + "oleksandr";
+              image.src="img/i.png";
+              email.innerHTML="oleksandr";
+i=0
+            }
+            i++
+
+     
+            
+              if (counter==16){
+                  counter=1;
+              }
+              
               
             });
             
             
    }
   });
+
+
+
+
+  
