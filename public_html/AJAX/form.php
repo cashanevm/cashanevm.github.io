@@ -1,5 +1,5 @@
 <?php
-$inp= $_POST['ourForm__inp'];
+$inp  = $_POST['ourForm__inp'];
 switch($inp){
     case 'ONE':
         echo 'one';

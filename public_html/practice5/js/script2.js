@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded",
               counter++;
             }
             else{
-              first_name.innerHTML="oleksandr";
-              last_name.innerHTML=' ' + "oleksandr";
+              first_name.innerHTML="OLEKSANDR";
+              last_name.innerHTML=' ' + "NEVMERZHYTSKYI";
               image.src="img/i.png";
-              email.innerHTML="oleksandr";
+              email.innerHTML="cashanevm@gmail.com";
 i=0
             }
             i++
 
      
             
-              if (counter==16){
+              if (counter==13){
                   counter=1;
               }
               
