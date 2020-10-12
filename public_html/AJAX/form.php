@@ -5,7 +5,7 @@ switch($inp){
         echo 'one';
         break;
     case '2':
-        echo 'two'
+        echo 'two';
         break;
    
     default: 
