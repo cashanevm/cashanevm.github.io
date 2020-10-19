@@ -10,7 +10,7 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-    background: #7aaec4;
+    background: #1E2746;
     height: 2.0rem;
     padding: 0.2rem 0;
 }
@@ -23,10 +23,6 @@ body {
 
 
 /*============= NAVIGATION =============*/
-
-.navbar-brand img {
-    height: 4rem;
-}
 
 .navbar {
     font-size: 1.3rem;
@@ -65,7 +61,12 @@ body {
 
 .carousel-item-next,
 .carousel-item-prev .carousel-item.active {
-    transition: transform 1.2s ease;
+    transition: transform 1.5s ease;
+    width: 600px;
+    -webkit-transition: transform 1.5s ease;
+    -moz-transition: transform 1.5s ease;
+    -ms-transition: transform 1.5s ease;
+    -o-transition: transform 1.5s ease;
 }
 
 
@@ -125,7 +126,7 @@ body {
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed {
-    background: url('../img/matrix.jpg');
+    background: url('../img/fon.jpg');
     position: fixed;
 }
 
@@ -133,11 +134,27 @@ body {
     padding: 10rem 0;
 }
 
+.fixed-background h1,
+h3 {
+    color: white;
+    background: black;
+    border-radius: 30px;
+    opacity: 55%;
+}
+
+.fixed-background h1 {
+    font-size: 2.4rem;
+}
+
+.fixed-background h3 {
+    font-size: 1.4rem;
+}
+
 
 /*-- Emoji Navbar --*/
 
 .emoji {
-    background-image: linear-gradient(to right, #4981b3, #ac2615);
+    background-image: linear-gradient(to right, #231840, #6C204B);
     min-height: 0 !important;
     padding: .4rem 0!important;
 }
@@ -228,22 +245,16 @@ footer .svg-inline--fa:hover {
 
 
 /*============ BOOTSTRAP BREAK POINTS:
-
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-
 =============*/
 
 
