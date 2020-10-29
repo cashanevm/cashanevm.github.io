@@ -306,3 +306,14 @@ Extra (xl) large devices (large desktops, 1200px and up)
 footer>.text-center {
     display: flex;
 }
+.vidio{
+    width: 80%;
+    height: 80vh;    
+    display: block;
+      margin: 0 auto; 
+      padding: 30px;
+      border-bottom:5px solid #1E2746;
+}
+.vidiotop{background: #1E2746;height: 4.0rem;
+    padding: 0.2rem 0;
+}
