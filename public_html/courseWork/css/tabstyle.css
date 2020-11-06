@@ -1,0 +1,82 @@
+.header {
+	display: flex;
+	background-color: #44302F;
+	padding: 20px 20px;
+}
+
+.header h1>a {
+	font-size: 30px;
+	padding: 0 20px 0 20px;
+	color: white;
+text-decoration: none;
+}
+
+.header button {
+	font-size: 20px;
+	padding: 0 20px 0 20px;
+	margin: 0 50px;
+	color: white;
+	background-color: #44302F;
+	border: 1px solid white;
+}
+
+.header input {
+	font-size: 20px;
+	padding: 0 20px 0 20px;
+	margin: 0 50px;
+	color: #858585;
+	background-color: white;
+	border: 1px solid #CDC8C8;
+	width: 50%;
+}
+
+.upperheader ul {
+	display: flex;
+	background-color: #352625;
+	color: white;
+	padding: 0 20px 0 20px;
+}
+
+.upperheader ul>li {
+	padding: 2px 20px 0 20px;
+}
+
+.upperheader ul>li>a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	display: flex;
+}
+
+.aside {
+	width: 10%;
+    background-color: #52465E;
+    height: 100vh;
+
+}
+
+
+img[alt="img"]{
+    width: 100%;
+}
+.article  {
+    width: 90%;
+}
+
+
+.article ul li div{
+    border:1px solid #44302F;
+    padding: 4%;
+    margin: 2%;
+}
+
+.col{
+    display: flex;
+
+flex-direction:column;
+}
+.hor{
+    display: flex;
+}

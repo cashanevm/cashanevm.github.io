@@ -1,0 +1,85 @@
+.header {
+	display: flex;
+	background-color: #44302F;
+	padding: 20px 20px;
+	box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .3);
+}
+
+.header h1>a {
+	font-size: 30px;
+	padding: 0 20px 0 20px;
+	color: white;
+text-decoration: none;
+}
+
+.header button {
+	font-size: 20px;
+	padding: 0 20px 0 20px;
+	margin: 0 50px;
+	color: white;
+	background-color: #44302F;
+	border: 1px solid white;
+}
+
+.header input {
+	font-size: 20px;
+	padding: 0 20px 0 20px;
+	margin: 0 50px;
+	color: #858585;
+	background-color: white;
+	border: 1px solid #CDC8C8;
+	width: 50%;
+}
+
+.upperheader ul {
+	display: flex;
+	background-color: #352625;
+	color: white;
+	padding: 0 20px 0 20px;
+	
+}
+
+.upperheader ul>li {
+	padding: 2px 20px 0 20px;
+}
+
+.upperheader ul>li>a {
+	text-decoration: none;
+	color: white;
+	
+}
+.wrapper{
+    background-color: white;
+    width: 90%;
+    margin: 0  auto;
+
+}
+.name  {
+    padding: 2% 5%;
+    border-bottom: 3px solid #352625;
+}
+.img{
+    border: 1px solid #352625;width: 50%;
+    box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .3);
+    
+}
+img{
+    
+width: 100%;
+}
+.block{
+    display: flex;
+    
+}
+.about{
+  padding:  0 0 0 5% ;
+  border: 1px solid #352625;
+  box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .3);
+  width: 40%;
+  margin: 0 auto;
+}
+.buy{
+	width: 90%;
+    margin: 0 auto;
+    
+}
