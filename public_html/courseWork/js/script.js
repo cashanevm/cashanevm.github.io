@@ -127,7 +127,7 @@ async function itemicon(num){
   
   
   console.log("complite")
-  item.innerHTML=`<div ><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="tabs/discr.html" ><button onclick="item(${num})">купить</button></a></div>`
+  item.innerHTML=`<img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="tabs/discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
   
 }
 
@@ -158,3 +158,124 @@ cost.innerHTML=`<h1> Ціна: ${content[0].cost} грн</h1>`
 
 }
 
+
+function buyclick(buy){
+ 
+  for(i=0;i<=7;i++){
+    let l = localStorage.getItem(i)
+         
+     
+     
+       
+     
+       if(l==-1){
+       
+        
+        
+        let num = localStorage.getItem("id")
+        localStorage.setItem(i,num)
+        
+        
+        
+        
+     
+         break
+       }
+       else
+       {
+        
+        }
+  }
+    
+  
+   
+   
+  
+  
+  
+  //  let h= localStorage.getItem("h")
+  //   let e =localStorage.getItem(h)
+  //   if(e=-1){ 
+    
+  //   let num = localStorage.getItem("id")
+  //   localStorage.setItem(h,num)
+    
+    
+  //   h++
+  //   localStorage.setItem("h",h)
+  //   }
+  //   else{
+     
+  //    }
+   
+ 
+ 
+  
+
+ 
+
+
+
+}  
+async function getTrash()
+   {
+  let check= localStorage.getItem("h")
+ 
+  for(i=0;i<=7;i++){
+    let l = localStorage.getItem(i)
+          let response = await fetch(`https://nevmerapp.herokuapp.com/users`)
+     
+      let content = await response.json()
+       let item= document.querySelector(".slot"+i) 
+     
+       if(l==-1){
+         item.innerHTML=``
+       }else{
+     
+       item.innerHTML=`<img src="${content[l-1].img}"  alt="imgmenu"><p>${content[l-1].name}</p><button class="del" onclick="delclick(${i})">удалити</button`
+      }
+  }
+  
+  // else{
+  //   let h= localStorage.getItem("h")
+  //  h=h-1
+  //   for(h;h>=0;h--){
+  //   if(h==null){
+      
+  //   }
+  //   else{
+  //     let l = localStorage.getItem(h)
+      
+  //     console.log(h)
+     
+  //      let response = await fetch(`https://nevmerapp.herokuapp.com/users`)
+     
+  //     let content = await response.json()
+  //     let item= document.querySelector(".slot"+h) 
+     
+  //     if(l==-1){
+  //       item.innerHTML=``
+  //     }else{
+     
+  //     item.innerHTML=`<img src="${content[l].img}"  alt="imgmenu"><p>${content[l].name}</p><a href="tabs/discr.html" ><button ">купить</button><button class="del" onclick="delclick(${h})">удалити</button</a>`
+       }
+      
+  
+
+
+
+
+
+    
+    
+    
+    
+    function delclick(num){
+      localStorage.setItem(num,-1)
+      
+      
+      getTrash()
+  
+  
+  
+  }  
