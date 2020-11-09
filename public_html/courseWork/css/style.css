@@ -303,3 +303,13 @@ img[alt="imgmenu"]{
 	
 	
 }
+
+.footer{
+	border-top:5px solid #352625;
+	background-color: wheat;
+	text-align: center;
+	
+}
+.triggered{
+	border:1px solid red;
+}

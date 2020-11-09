@@ -160,11 +160,19 @@ cost.innerHTML=`<h1> Ціна: ${content[0].cost} грн</h1>`
 
 
 function buyclick(buy){
- 
-  for(i=0;i<=7;i++){
-    let l = localStorage.getItem(i)
+ let q=9;
+ for(i=0;i<=7;i++){
+   let l = localStorage.getItem(i)
+
+   if(l==-1){q--}
+
+ }
+ let buttomtrash= document.querySelector('.buttomtrash')
+buttomtrash.innerHTML='<a class="triggered">'+q+'</a>'
+ for(i=0;i<=7;i++){
+    
          
-     
+  let l = localStorage.getItem(i)
      
        
      
@@ -185,7 +193,8 @@ function buyclick(buy){
        {
         
         }
-  }
+        
+      }
     
   
    
