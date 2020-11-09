@@ -13,88 +13,97 @@ if(bool==1){
 aside_block.innerHTML=`<aside class="aside " id="menu1">
 <ul>
   <li>
-      <a class="tabnav" href="tabs/menutabs/tab1.html">Зима</a>
+      <a class="tabnav" href="tabs/menutabs/tab1.html">Чоловіче взуття</a>
       
         <div class="wblock">
        
         <ul class="col">
         <li>
         <ul class="hor">
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, aspernatur veniam quisquam error exercitationem modi molestias beatae fuga optio debitis.</div></li>
-    <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem earum exercitationem voluptatibus architecto omnis sequi consectetur corporis impedit velit.</div></li>
-    <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur quibusdam quasi aliquid dolore sed magnam sint repellendus. Veritatis, ipsa.</div></li>
-    <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ad distinctio atque assumenda illo fugiat ducimus provident suscipit, adipisci aliquam!</div></li>
-      </ul>
-        </li>
-        <li>
-          <ul class="hor">
-            <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, aspernatur veniam quisquam error exercitationem modi molestias beatae fuga optio debitis.</div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem earum exercitationem voluptatibus architecto omnis sequi consectetur corporis impedit velit.</div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur quibusdam quasi aliquid dolore sed magnam sint repellendus. Veritatis, ipsa.</div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ad distinctio atque assumenda illo fugiat ducimus provident suscipit, adipisci aliquam!</div></li>
-          </ul>
-        </li>
+          <li class="w-100 "><div class="item1 " ><script>itemicon(1);</script></div></li>
+            
+            <li class="w-100 "><div class="item2"><script>itemicon(2);</script></div></li>
+            <li class="w-100"><div class="item3"><script>itemicon(3);</script></div></li>
+      <li class="w-100"><div class="item4"><script>itemicon(4);</script></div></li>
+        </ul>
+      </li>
+      <li>
+        <ul class="hor">
+          <li class="w-100 "><div class="item5 " ><script>itemicon(5);</script></div></li>
+          <li class="w-100 "><div class="item6 " ><script>itemicon(6);</script></div></li>
+          <li class="w-100 "><div class="item7 " ><script>itemicon(7);</script></div></li>
+          <li class="w-100 "><div class="item8 " ><script>itemicon(8);</script></div></li>
+        </ul>
+      </li>
 
 
           
-          <a class="more" href="tabs/menutabs/tab1.html">Детальніше...</a>
+          
           </div>
         
       
   </li>
   <li>
-      <a  class="tabnav"href="tabs/menutabs/tab2.html">Літо</a>
+      <a  class="tabnav"href="tabs/menutabs/tab2.html">Жіноче взуття</a>
       <ul>
-        <div class="wblock"> <ul>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor, </div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-         
-        </ul></div>
-        
-      </ul>
-  </li>
-  <li>
-      <a class="tabnav"href="tabs/menutabs/tab3.html">Осінь</a>
-      <ul>
-        <div class="wblock"> <ul>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-          <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-         
-        </ul></div>
-        
-      </ul>
-  </li>
-  <li>
-    <a class="tabnav"href="tabs/menutabs/tab4.html">Весна</a>
-    <ul>
-      <div class="wblock"> <ul>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-        <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
+      <div class="wblock">
        
-      </ul></div>
-      
-    </ul>
-</li>
-<li>
-  <a class="tabnav" href="tabs/menutabs/tab5.html">Спорт</a>
-  <ul>
-    <div class="wblock"> <ul>
-      <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-      <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-      <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor </div></li>
-      <li><div><img src="https://i.pinimg.com/originals/f4/d2/96/f4d2961b652880be432fb9580891ed62.png" alt="img">Lorem ipsum dolor</div></li>
-     
-    </ul></div>
-    
-  </ul>
-</li>
+      <ul class="col">
+      <li>
+      <ul class="hor">
+        <li class="w-100 "><div class="item9 " ><script>itemicon(9);</script></div></li>
+        <li class="w-100 "><div class="item10 " ><script>itemicon(10);</script></div></li>
+        <li class="w-100 "><div class="item11 " ><script>itemicon(11);</script></div></li>
+        <li class="w-100 "><div class="item12 " ><script>itemicon(12);</script></div></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="hor">
+        <li class="w-100 "><div class="item13 " ><script>itemicon(13);</script></div></li>
+        <li class="w-100 "><div class="item14 " ><script>itemicon(14);</script></div></li>
+        <li class="w-100 "><div class="item15 " ><script>itemicon(15);</script></div></li>
+        <li class="w-100 "><div class="item16 " ><script>itemicon(16);</script></div></li>
+      </ul>
+    </li>
+
+        
+        
+        </div>
+        
+      </ul>
+  </li>
+  
 </ul> 
+</aside>`;
+bool--;
+}
+else {aside_block.innerHTML=`<h1></h1>`;
+bool++}
+
+}
+
+function clicknexttab(button){
+  let aside_block= document.querySelector('.aside_block')
+
+
+if(bool==1){
+aside_block.innerHTML=`<aside class="aside" id="menu1">
+     
+
+
+<ul><h1>Колір</h1>
+  <li><input onclick="color('white')" type="radio" name="f1">білий </li>
+  <li><input  onclick="color('black')" type="radio" name="f1">чорний </li>
+  <li><input  onclick="color(null)" type="radio" name="f1">ніякий </li>
+</ul>
+
+<ul><h1>Розмір</h1>
+  <li><input onclick="size1('39')" type="radio" name="f2">39 </li>
+  <li><input  onclick="size1('40')" type="radio" name="f2">40 </li>
+  <li><input  onclick="size1('41')" type="radio" name="f2">41 </li>
+  <li><input  onclick="size1('42')" type="radio" name="f2">42 </li>
+  <li><input  onclick="size1(null)" type="radio" name="f2">ніякий </li>
+</ul>
 </aside>`;
 bool--;
 }
@@ -130,7 +139,50 @@ async function itemicon(num){
   item.innerHTML=`<img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="tabs/discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
   
 }
+async function itemiconintab(num){
+  
+  let item= document.querySelector(".item"+num)
+  let response = await fetch(`https://nevmerapp.herokuapp.com/users/${num}`)
+  let content = await response.json()
+  let color = localStorage.getItem("color")
+  let size = localStorage.getItem("size")
 
+  if(size == 'null'){if(color=="white"){
+    if(content[0].color=="white"){
+      item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+    
+
+  }}
+  else if(color=="black"){
+if(content[0].color=="black"){
+  item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+}
+  }
+  else{
+    item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+  }
+  }
+  else{
+    if(content[0].size==size){
+      if(color=="white"){
+        if(content[0].color=="white"){
+          item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+        
+    
+      }}
+      else if(color=="black"){
+    if(content[0].color=="black"){
+      item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+    }
+      }
+      else{
+        item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+      }
+    }
+  }
+  // item.innerHTML=`<img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
+  
+}
 
 async function getResponse (){
    
@@ -228,11 +280,13 @@ buttomtrash.innerHTML='<a class="triggered">'+q+'</a>'
 }  
 async function getTrash()
    {
-  let check= localStorage.getItem("h")
- 
+  
+ let velue=0
+ let vel= document.querySelector(".velue")
   for(i=0;i<=7;i++){
     let l = localStorage.getItem(i)
-          let response = await fetch(`https://nevmerapp.herokuapp.com/users`)
+    
+          let response = await fetch(`https://nevmerapp.herokuapp.com/users/${l}`)
      
       let content = await response.json()
        let item= document.querySelector(".slot"+i) 
@@ -240,31 +294,15 @@ async function getTrash()
        if(l==-1){
          item.innerHTML=``
        }else{
-     
-       item.innerHTML=`<img src="${content[l-1].img}"  alt="imgmenu"><p>${content[l-1].name}</p><button class="del" onclick="delclick(${i})">удалити</button`
+         velue=velue+(Number(content[0].cost))
+     console.log(content[0].cost)
+       item.innerHTML=`<img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><button class="del" onclick="delclick(${i})">удалити</button`
       }
+       
+  vel.innerHTML=`<h1>Ціна:${velue} грн</h1>`;
   }
   
-  // else{
-  //   let h= localStorage.getItem("h")
-  //  h=h-1
-  //   for(h;h>=0;h--){
-  //   if(h==null){
-      
-  //   }
-  //   else{
-  //     let l = localStorage.getItem(h)
-      
-  //     console.log(h)
-     
-  //      let response = await fetch(`https://nevmerapp.herokuapp.com/users`)
-     
-  //     let content = await response.json()
-  //     let item= document.querySelector(".slot"+h) 
-     
-  //     if(l==-1){
-  //       item.innerHTML=``
-  //     }else{
+///////////////////////////////////////
      
   //     item.innerHTML=`<img src="${content[l].img}"  alt="imgmenu"><p>${content[l].name}</p><a href="tabs/discr.html" ><button ">купить</button><button class="del" onclick="delclick(${h})">удалити</button</a>`
        }
@@ -297,4 +335,45 @@ async function getTrash()
         localStorage.setItem(i,-1)
       }
     }
+
   }
+
+  function color(color){
+    localStorage.setItem("color",color)
+    location.reload();
+  }
+  function size1(size){
+    localStorage.setItem("size",size)
+    location.reload();
+  }
+
+  function filset(){
+    let color = localStorage.getItem("color")
+  let size = localStorage.getItem("size")
+  
+  let color1= document.querySelector('.color')
+    color1.innerHTML=`<h1>Колір:${color}</h1>`;
+    
+    let size1= document.querySelector('.size')
+    size1.innerHTML=`<h1>Розмір:${size}</h1>`;
+
+
+
+}
+async function getVelue(){
+  res=0
+  for(i=0;i<=7;i++){
+    let l = localStorage.getItem(i)
+if(l==-1){
+
+}
+else{
+  let response = await fetch(`https://nevmerapp.herokuapp.com/users/${l}`)
+  let content = await response.json()
+  res=res+content[0].cost
+  console.log(Number(content[0].cost))
+}
+  }
+  let item= document.querySelector(".velue") 
+  item.innerHTML=`<h1>Ціна:${res}</h1>`;
+}
