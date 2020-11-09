@@ -328,6 +328,7 @@ async function getTrash()
   }  
 
   function Trachcreater(){
+  
     for(i=0;i<=7;i++){
       let l = localStorage.getItem(i)
       if(l===null){
