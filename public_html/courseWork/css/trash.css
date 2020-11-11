@@ -76,3 +76,12 @@
 	text-align: center;
 	
 }
+.trashpos{
+	display: flex;
+	justify-content: flex-end;
+	width: 60%;
+}
+.block img{
+    width: 100%;
+
+}

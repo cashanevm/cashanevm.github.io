@@ -15,55 +15,13 @@ aside_block.innerHTML=`<aside class="aside " id="menu1">
   <li>
       <a class="tabnav" href="tabs/menutabs/tab1.html">Чоловіче взуття</a>
       
-        <div class="wblock">
-       
-        <ul class="col">
-        <li>
-        <ul class="hor">
-          <li class="w-100 "><div class="item1 " ><script>itemicon(1);</script></div></li>
-            
-            <li class="w-100 "><div class="item2"><script>itemicon(2);</script></div></li>
-            <li class="w-100"><div class="item3"><script>itemicon(3);</script></div></li>
-      <li class="w-100"><div class="item4"><script>itemicon(4);</script></div></li>
-        </ul>
-      </li>
-      <li>
-        <ul class="hor">
-          <li class="w-100 "><div class="item5 " ><script>itemicon(5);</script></div></li>
-          <li class="w-100 "><div class="item6 " ><script>itemicon(6);</script></div></li>
-          <li class="w-100 "><div class="item7 " ><script>itemicon(7);</script></div></li>
-          <li class="w-100 "><div class="item8 " ><script>itemicon(8);</script></div></li>
-        </ul>
-      </li>
-
-
-          
-          
-          </div>
+        
         
       
   </li>
   <li>
       <a  class="tabnav"href="tabs/menutabs/tab2.html">Жіноче взуття</a>
-      <ul>
-      <div class="wblock">
-       
-      <ul class="col">
-      <li>
-      <ul class="hor">
-        <li class="w-100 "><div class="item9 " ><script>itemicon(9);</script></div></li>
-        <li class="w-100 "><div class="item10 " ><script>itemicon(10);</script></div></li>
-        <li class="w-100 "><div class="item11 " ><script>itemicon(11);</script></div></li>
-        <li class="w-100 "><div class="item12 " ><script>itemicon(12);</script></div></li>
-      </ul>
-    </li>
-    <li>
-      <ul class="hor">
-        <li class="w-100 "><div class="item13 " ><script>itemicon(13);</script></div></li>
-        <li class="w-100 "><div class="item14 " ><script>itemicon(14);</script></div></li>
-        <li class="w-100 "><div class="item15 " ><script>itemicon(15);</script></div></li>
-        <li class="w-100 "><div class="item16 " ><script>itemicon(16);</script></div></li>
-      </ul>
+      
     </li>
 
         
@@ -149,34 +107,34 @@ async function itemiconintab(num){
 
   if(size == 'null'){if(color=="white"){
     if(content[0].color=="white"){
-      item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+      item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
     
 
   }}
   else if(color=="black"){
 if(content[0].color=="black"){
-  item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+  item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
 }
   }
   else{
-    item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+    item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
   }
   }
   else{
     if(content[0].size==size){
       if(color=="white"){
         if(content[0].color=="white"){
-          item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+          item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
         
     
       }}
       else if(color=="black"){
     if(content[0].color=="black"){
-      item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+      item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
     }
       }
       else{
-        item.innerHTML=`<div><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a></div>`
+        item.innerHTML=`<div class="blockitem"><img src="${content[0].img}"  alt="imgmenu"><p>${content[0].name}</p><a href="../discr.html" ><button class="buy" onclick="item(${num})">купить</button></a>`
       }
     }
   }
